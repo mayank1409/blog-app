@@ -47,7 +47,4 @@ public class AuthController {
         signUp.setPassword(null);
         return new ResponseEntity<>(signUp, HttpStatus.OK);
     }
-
-
-
 }

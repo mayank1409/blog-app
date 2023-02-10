@@ -4,13 +4,11 @@ import com.javaguides.training.blog.app.payload.PostDto;
 import com.javaguides.training.blog.app.payload.PostResponse;
 import com.javaguides.training.blog.app.service.PostService;
 import com.javaguides.training.blog.app.utils.AppConstants;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
-
 @RequestMapping(value = "/api/v1/posts")
 @RestController()
 public class PostController {
